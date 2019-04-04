@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lol.lol.horoscopo.Tauro">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
+            </com.google.android.gms.ads.AdView>
+            <Button
+                android:id="@+id/diario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="♉ Tauro    ♉"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Son conservadores, de ideas fijas, y son tenaces y perseverantes. No les gusta arriesgarse si no lo tienen muy seguro. Son honestos, calmados, pacientes y prácticos. Profesiones frecuentes: jardineros, ingenieros de caminos, banqueros, empresarios, cantantes, actores y diseñadores."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="❤ Amor     ❤"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pacientes, reservados y fieles, suelen ser personas de relaciones duraderas que lo dan todo cuando quieren a su pareja. "
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="$   Dinero   $"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Revisa tus cuentas bancarias y, si es necesario, aprende a administrar mejor tu dinero. Si has sacado algo a credito trata de pagar antes de que esa compra te genere intereses y termines pagando de mas. Si es tu trabajo todo marcha bien, seria un buen momento para pedir un aumento."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✚   Salud   ✚"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Si eres nacido bajo este signo es necesario que sepas que tu salud puede tener varios cambios esta semana, los problemas de garganta son siempre tu talon de aquiles, trata de no exponerte mucho a cambios bruscos de temperatura, hazle caso a tu medico."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✍   Trabajo   ✍"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="La suerte te sonrie por todos lados aunque con mayor fuerza en el tema laboral. Te propondran participar en un proyecto o propuesta de negocio importante. Asi que trata de demostrar lo que vales y lo que sabes hacer. Si sientes que tienes mucho trabajo actualmente talvez deberias tomar un descanso."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="🍀 Suerte     🍀"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Numero de la suerte: 6 y tu color de la suerte el rojo."
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="408dp"
+                android:layout_height="62dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

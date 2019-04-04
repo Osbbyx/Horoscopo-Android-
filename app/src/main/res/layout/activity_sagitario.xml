@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lol.lol.horoscopo.Sagitario">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
+            </com.google.android.gms.ads.AdView>
+            <Button
+                android:id="@+id/diario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="♐ Sagitario    ♐"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tienen mucha fuerza, arrojo y una gran capacidad de lucha y acción. Es muy dado al lujo pero sabe adaptarse a las circunstancias. Son intelectuales, idealistas, ingeniosos y les gusta mucho viajar. A veces pueden ser cambiantes e inconstantes. Profesiones frecuentes: abogados, profesores, exploradores, filósofos y deportistas."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="❤ Amor     ❤"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Un Sagitario es una mezcla entre lo que está cerca de ti y el espacio que tienes que ceder para que estos seres corran libres por las praderas que ellos deseen, si bien son personas entregadas y muy inteligentes al manejar una relación, debes tener muy claro que cuando tengan algo que decir lo harán y punto, sin importar que tipo de reclamación sea, y como son poco comunes es muy probable que cuando tengan algo para decir no será una sola cosa. "
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="$   Dinero   $"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="El dia de hoy los astros te abren la puerta a nuevas oportunidades qeu traeran consigo una excelente estabilidad para tus finanzas. ES momento de que empieces a cambiar tu estilo de vida, es evidente que no eres una persona muy ahorradora, esta racha de suerte te permitira darte ciertos lujos pero no te excedas, puede que necesites de ese dinero mas adelante."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✚   Salud   ✚"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dormir tus 8 horas diarias te vendra de maravilla y eso le ayudara bastante a tu salud, no debes desvelarte demasiado ya que eso influye en tu estado de animo y tu salud como tal. Come saludable y ya no comas cualquier cosa en la calle ya que te puede ocasionar problemas instestinales. Cambia tus habitos alimenticios y come saludable."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✍   Trabajo   ✍"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Si estas buscando empleo hoy es un gran dia, sal de casa con energia positiva y es probable que lo consigas. No seas tan exigente, ningun trabajo es malo, te acostumbraras. Puede ser que con el paso del tiempo tengas uno mejor."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="🍀 Suerte     🍀"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Numero de la suerte: 52 y tu color de la suerte el rosa"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="408dp"
+                android:layout_height="62dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

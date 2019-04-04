@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lol.lol.horoscopo.Leo">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
+            </com.google.android.gms.ads.AdView>
+            <Button
+                android:id="@+id/diario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="♌ Leo    ♌"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tienen un carácter muy determinativo, son grandes organizadores y pueden ser un pelín orgullosos. Cuando quieren conseguir algo, son muy voluntariosos y tenaces. Se muestran muy decididos y tienen mucho afán de superación. Desean la aprobación de los demás pero son muy fieles con las amistades y amores. Son ardientes, generosos, pasionales, protectores, francos, enérgicos, seguros y leales. Profesiones frecuentes: jefes de estado, directores de empresas, altos ejecutivos, gimnastas y directores teatrales."
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/diario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="❤ Amor     ❤"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="El poder absoluto de Leo en el amor, hacen que todas las personas deban en algún momento de su vida experimentar lo que se siente ser devorados por un insaciable león en celo, con su fuerza, su ímpetu y su control sobre todo lo que sucede en la relación. Es increíble sentir el poder de un Leo en tu casa, estableciendo una relación sentimental con fuertes lazos, o en tu cama, teniendo una fiera indomable que seguramente te hará volar a otros mundos que no has conocido hasta ahora."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="$   Dinero   $"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Es necesario que renuncies a ciertas condiciones en las finanzas. Debes abandonar por completo todas aquellas inversiones que te resulten problematicas o poco confiables ya que el dia de hoy no es una opcion. Lo mejor que puedes hacer en estos momentos es esforzarte por hacer bien tu trabajo y cuidar tu economia."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✚   Salud   ✚"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tu salud en esots momentos es muy estable. Esos dolores que has tenido recientemente no son mas que por estres. procura relajarte, salir a camniar y comer sanamente. No tomes las cosas muy a pecho, esto puede perjudicar mucho tu salud. Trata de olvidar por un momento tus problemas y preocuparte por tu salud."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✍   Trabajo   ✍"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Evita acumular mucho estres por sobrecargarte de trabajo, aunque si ya te sientes asi lo mejor que puedes hacer es sacar todo eso malo con un buen masaje. Ten en orden todos tus documentos y tenlos a la mano por cualquier cosa. Recuerda siempre hacer lo que gusta, vive feliz y en poco tiempo veras muy buenos resultados."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="🍀 Suerte     🍀"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Numero de la suerte: 65 y tu color de la suerte el rojo."
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="408dp"
+                android:layout_height="62dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

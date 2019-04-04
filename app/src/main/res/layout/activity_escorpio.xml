@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lol.lol.horoscopo.Escorpio">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
+            </com.google.android.gms.ads.AdView>
+            <Button
+                android:id="@+id/diario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="♏ Escorpio    ♏"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tienen una psicología muy compleja, suelen tener una vida turbulenta y apasionada. Lo misterioso, lo oculto y lo invisible atrae mucho a este signo. Suelen ser nobles, prudentes, afectuosos, apasionados, altruistas y reservados. Profesiones frecuentes: dentistas, médicos, físicos e investigadores."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="❤ Amor     ❤"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="asionales por excelencia, los Escorpio son personas que no pierden el tiempo, les gusta por su naturaleza fuerte y entregada ser los líderes de la relación y de cualquier acción que emprendan hacia un punto final trazado por ellos mismos. Su sentido de compromiso puede no ser tan fuerte, pero su pasión y entrega harán que se mantengan contigo."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="$   Dinero   $"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Es posible que algunos planes que habias tenido en tus finanzas se retrase mas de lo que pensaste. Es muy importante que tomes las cosas con calma, todo puede solucionarse. Es necesario que tomes otras alternativas, es el momento perfecto para ser innovador. No te desesperes, las cosas buenas siempre tardan en llegar."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✚   Salud   ✚"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Se acercan buenas noticias para tu salud en los proximos dias, todo parece indicar que en cuanto a salud todo marchara bien y no tendras que preocuparte de mas. Trata de no pasar mucho tiempo en lugares poco higienicos o bajo los rayos directos del sol para no exponerte a enfermedades."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✍   Trabajo   ✍"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Es hora de que empieces a amar tu empleo, los astros alinean este dia para darte la oportunidad de un ascenso. Es necesario que hagas un excelente trabajo para lograr esto. No te desesperes, persevera y alcanzaras el puesto que siempres has querido."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="🍀 Suerte     🍀"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Numero de la suerte: 81 y tu color de la suerte el negro."
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="408dp"
+                android:layout_height="62dp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/capricornio"
+            android:icon="@mipmap/capricornio"
+            android:title="Capricornio" />
+        <item
+            android:id="@+id/acuario"
+            android:icon="@mipmap/acuario"
+            android:title="Acuario" />
+        <item
+            android:id="@+id/piscis"
+            android:icon="@mipmap/piscis"
+            android:title="Piscis" />
+        <item
+            android:id="@+id/aries"
+            android:icon="@mipmap/aries"
+            android:title="Aries" />
+        <item
+            android:id="@+id/tauro"
+            android:icon="@mipmap/tauro"
+            android:title="Tauro" />
+        <item
+            android:id="@+id/geminis"
+            android:icon="@mipmap/geminis"
+            android:title="Geminis" />
+        <item
+            android:id="@+id/cancer"
+            android:icon="@mipmap/cancer"
+            android:title="Cancer" />
+        <item
+            android:id="@+id/leo"
+            android:icon="@mipmap/leo"
+            android:title="Leo" />
+        <item
+            android:id="@+id/virgo"
+            android:icon="@mipmap/virgo"
+            android:title="Virgo" />
+        <item
+            android:id="@+id/libra"
+            android:icon="@mipmap/libra"
+            android:title="Libra" />
+        <item
+            android:id="@+id/escorpio"
+            android:icon="@mipmap/escorpio"
+            android:title="Escorpio" />
+        <item
+            android:id="@+id/sagitario"
+            android:icon="@mipmap/sagitario"
+            android:title="Sagitario" />
+        <item
+            android:id="@+id/acerca-de"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Acerca de " />
+    </group>
+
+</menu>

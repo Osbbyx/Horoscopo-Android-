@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lol.lol.horoscopo.Acuario">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
+            </com.google.android.gms.ads.AdView>
+            <Button
+                android:id="@+id/diario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="♒ Acuario    ♒"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Su mente es analítica y tienen una buena memoria. Son organizadores, conservadores, sociables, cordiales, leales, altruistas, originales, vanguardistas y simpáticos. Poseen una gran intuición racional. Profesiones frecuentes: psicólogos, inventores, arqueólogos y restauradores."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="❤ Amor     ❤"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="es uno de esos signos que enamoran. Su forma de ser y su manera de entender la vida le convierten en uno de los más interesantes del zodiaco. Sin embargo, o precisamente por ello, es muy complicado comprender su manera de ser en el amor. "
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="$   Dinero   $"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Las deudas en estos momentos estan absorbiendo todos tu ingresos, esto se debe a los prestamos innecesarios que has tenido debido a la falta de organizacion en tu economia. Debes de aprender a priorizar gastos, evita comprar cosas que no necesiten tu y tu familia. Que esto te sirva de leccion para cuidar tu dinero."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✚   Salud   ✚"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Si llegas a tener algun problema en tu salud, lo mejor que puedes hacer es acudir con algun medico de confianza y seguir los consejos que estos te den. No dejes que estos problemas sigan creciendo y se conviertan en un mal mucho mayor. No te automediques por nada del mundo, no conseguiras nada bueno con eso."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="✍   Trabajo   ✍"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Si estas en busca de trabajo hoy puede ser el gran dia, no te detengas y toca todas las puertas que puedas, ya veras que con facilidad mas de una se te abrira. Recuerda que la actitud es muy importante en estos aspectos."
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/diario6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="🍀 Suerte     🍀"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nomero de la suerte: 35 y Color de la suerte Naranja."
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="408dp"
+                android:layout_height="62dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
