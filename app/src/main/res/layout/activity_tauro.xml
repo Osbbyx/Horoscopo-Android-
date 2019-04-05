@@ -7,7 +7,7 @@
     tools:context="lol.lol.horoscopo.Tauro">
 
     <ScrollView
-        android:layout_width="395dp"
+        android:layout_width="361dp"
         android:layout_height="715dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -28,16 +28,17 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="62dp" />
-            <com.google.android.gms.ads.AdView
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/adView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-8718810071299222/6691988289">
-            </com.google.android.gms.ads.AdView>
+                ads:adUnitId="ca-app-pub-8718810071299222/6691988289"></com.google.android.gms.ads.AdView>
+
             <Button
                 android:id="@+id/diario"
                 android:layout_width="match_parent"

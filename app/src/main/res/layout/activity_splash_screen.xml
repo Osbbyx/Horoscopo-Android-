@@ -43,7 +43,7 @@
 
             <ImageView
                 android:id="@+id/imageView14"
-                android:layout_width="wrap_content"
+                android:layout_width="388dp"
                 android:layout_height="449dp"
                 app:srcCompat="@mipmap/todo" />
 
