@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "152328691835",
+    "firebase_url": "https://horoscopo-9a04c.firebaseio.com",
+    "project_id": "horoscopo-9a04c",
+    "storage_bucket": "horoscopo-9a04c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152328691835:android:c4687ac265f54647",
+        "android_client_info": {
+          "package_name": "lol.lol.horoscopo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa3zvHTAjP-u7MkA9U4zq9Kc6M0jgOCfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152328691835-h91k21sn14l29sf74fbni4g3bhmvb6sv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
