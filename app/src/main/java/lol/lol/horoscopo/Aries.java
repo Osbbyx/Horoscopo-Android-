@@ -1,7 +1,10 @@
 package lol.lol.horoscopo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -15,6 +18,7 @@ public class Aries extends AppCompatActivity implements RewardedVideoAdListener 
 
     RewardedVideoAd mAd;
     private AdView mAdView;
+    Button mButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,25 +28,32 @@ public class Aries extends AppCompatActivity implements RewardedVideoAdListener 
         mAd = MobileAds.getRewardedVideoAdInstance(this);
         mAd.setRewardedVideoAdListener(this);
 
+        mButton = findViewById(R.id.btn2);
+        mButton.setEnabled(false);
+
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         mAd.loadAd("ca-app-pub-8718810071299222/2028665027",new AdRequest.Builder().build());
 
-        if(mAd.isLoaded()){
-            mAd.show();
-        }
-
-        mAd.show();
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
+        mButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if(mAd.isLoaded()){
+                    mAd.show();
+                }
+            }
+        });
     }
 
     @Override
     public void onRewardedVideoAdLoaded() {
-
+        mButton.setEnabled(true);
     }
 
     @Override
@@ -62,7 +73,8 @@ public class Aries extends AppCompatActivity implements RewardedVideoAdListener 
 
     @Override
     public void onRewarded(RewardItem rewardItem) {
-
+        Intent daily = new Intent(this, Daily.class);
+        startActivity(daily);
     }
 
     @Override

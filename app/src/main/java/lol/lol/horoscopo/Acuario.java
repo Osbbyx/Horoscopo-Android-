@@ -1,7 +1,11 @@
 package lol.lol.horoscopo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -15,10 +19,16 @@ public class Acuario extends AppCompatActivity implements RewardedVideoAdListene
 
     RewardedVideoAd mAd;
     private AdView mAdView;
+
+    Button mButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acuario);
+
+        mButton = findViewById(R.id.btn);
+        mButton.setEnabled(false);
 
         MobileAds.initialize(this, "ca-app-pub-8718810071299222/2028665027");
         mAd = MobileAds.getRewardedVideoAdInstance(this);
@@ -30,11 +40,18 @@ public class Acuario extends AppCompatActivity implements RewardedVideoAdListene
 
         mAd.loadAd("ca-app-pub-8718810071299222/2028665027",new AdRequest.Builder().build());
 
-        if(mAd.isLoaded()){
-            mAd.show();
-        }
+        mButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if(mAd.isLoaded()){
+                    mAd.show();
+                }
+            }
+        });
 
-        mAd.show();
+
+
+
 
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -43,6 +60,7 @@ public class Acuario extends AppCompatActivity implements RewardedVideoAdListene
 
     @Override
     public void onRewardedVideoAdLoaded() {
+        mButton.setEnabled(true);
     }
 
     @Override
@@ -62,6 +80,8 @@ public class Acuario extends AppCompatActivity implements RewardedVideoAdListene
 
     @Override
     public void onRewarded(RewardItem rewardItem) {
+        Intent daily = new Intent(this, Daily.class);
+        startActivity(daily);
 
     }
 

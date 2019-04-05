@@ -1,7 +1,10 @@
 package lol.lol.horoscopo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -12,13 +15,16 @@ import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import lol.lol.horoscopo.R;
 
 public class Sagitario extends AppCompatActivity implements RewardedVideoAdListener {
-
+    Button mButton;
     RewardedVideoAd mAd;
     private AdView mAdView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sagitario);
+
+        mButton = findViewById(R.id.btn10);
+        mButton.setEnabled(false);
 
         MobileAds.initialize(this, "ca-app-pub-8718810071299222/2028665027");
         mAd = MobileAds.getRewardedVideoAdInstance(this);
@@ -29,10 +35,14 @@ public class Sagitario extends AppCompatActivity implements RewardedVideoAdListe
         mAdView.loadAd(adRequest);
         mAd.loadAd("ca-app-pub-8718810071299222/2028665027",new AdRequest.Builder().build());
 
-        if(mAd.isLoaded()){
-            mAd.show();
-        }
-        mAd.show();
+        mButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if(mAd.isLoaded()){
+                    mAd.show();
+                }
+            }
+        });
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
@@ -40,7 +50,7 @@ public class Sagitario extends AppCompatActivity implements RewardedVideoAdListe
 
     @Override
     public void onRewardedVideoAdLoaded() {
-
+        mButton.setEnabled(true);
     }
 
     @Override
@@ -60,7 +70,8 @@ public class Sagitario extends AppCompatActivity implements RewardedVideoAdListe
 
     @Override
     public void onRewarded(RewardItem rewardItem) {
-
+        Intent daily = new Intent(this, Daily.class);
+        startActivity(daily);
     }
 
     @Override

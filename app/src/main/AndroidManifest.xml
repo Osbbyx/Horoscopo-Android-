@@ -12,51 +12,51 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        
-        <activity android:name="lol.lol.horoscopo.about" />
+        <activity android:name=".Daily"></activity>
+        <activity android:name=".about" />
         <activity
-            android:name="lol.lol.horoscopo.Sagitario"
+            android:name=".Sagitario"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Escorpio"
+            android:name=".Escorpio"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Libra"
+            android:name=".Libra"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Virgo"
+            android:name=".Virgo"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Leo"
+            android:name=".Leo"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Cancer"
+            android:name=".Cancer"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Geminis"
+            android:name=".Geminis"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Tauro"
+            android:name=".Tauro"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Aries"
+            android:name=".Aries"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Piscis"
+            android:name=".Piscis"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.Acuario"
+            android:name=".Acuario"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.capricornio"
+            android:name=".capricornio"
             android:screenOrientation="portrait" />
         <activity
-            android:name="lol.lol.horoscopo.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="lol.lol.horoscopo.SplashScreen"
+            android:name=".SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

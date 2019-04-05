@@ -40,6 +40,23 @@
                 ads:adSize="BANNER"
                 ads:adUnitId="ca-app-pub-8718810071299222/6691988289"></com.google.android.gms.ads.AdView>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:text="Horoscopo del Dia"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
             <Button
                 android:id="@+id/diario"
                 android:layout_width="match_parent"

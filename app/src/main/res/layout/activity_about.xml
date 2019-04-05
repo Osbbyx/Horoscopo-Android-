@@ -199,6 +199,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="27dp" />
 
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:text="Horoscopo del Dia"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Este boton en cada pestaña te genera el horoscopo del dia al cual le puedes tirar un capture y asi todos los dias, debe abrirse 1 vez al dia tirar el capture y verlo desde galeria, una vez pasa el dia puede volver a entrar y tendra el horoscopo del dia correspodiente."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+
             <TextView
                 android:id="@+id/textView46"
                 android:layout_width="match_parent"
