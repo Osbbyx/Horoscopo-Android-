@@ -1,29 +1,38 @@
 {
   "project_info": {
-    "project_number": "152328691835",
-    "firebase_url": "https://horoscopo-9a04c.firebaseio.com",
-    "project_id": "horoscopo-9a04c",
-    "storage_bucket": "horoscopo-9a04c.appspot.com"
+    "project_number": "279854471951",
+    "firebase_url": "https://horoscopo-95997.firebaseio.com",
+    "project_id": "horoscopo-95997",
+    "storage_bucket": "horoscopo-95997.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152328691835:android:c4687ac265f54647",
+        "mobilesdk_app_id": "1:279854471951:android:c4687ac265f54647",
         "android_client_info": {
           "package_name": "lol.lol.horoscopo"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "279854471951-f9mjge49vj80c5mhrt5k7gsoc0nisubr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lol.lol.horoscopo",
+            "certificate_hash": "83aca2944ab850cab0d6905edf3127931f4cac33"
+          }
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBa3zvHTAjP-u7MkA9U4zq9Kc6M0jgOCfw"
+          "current_key": "AIzaSyD6t4NbFR5M8nvAT_URg7IJvL4oMy6xWpI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "152328691835-h91k21sn14l29sf74fbni4g3bhmvb6sv.apps.googleusercontent.com",
+              "client_id": "279854471951-c8n43vkcmrsniorr8fqb9k6qggoch63d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

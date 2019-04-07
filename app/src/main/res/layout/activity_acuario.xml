@@ -7,7 +7,7 @@
     tools:context="lol.lol.horoscopo.Acuario">
 
     <ScrollView
-        android:layout_width="374dp"
+        android:layout_width="353dp"
         android:layout_height="715dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"

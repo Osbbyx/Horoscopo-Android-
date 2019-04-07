@@ -7,7 +7,7 @@
     tools:context="lol.lol.horoscopo.Cancer">
 
     <ScrollView
-        android:layout_width="364dp"
+        android:layout_width="355dp"
         android:layout_height="715dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -88,6 +88,7 @@
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Las personas que nacen bajo el agua, regidas por el signo de Cáncer son un enigma difícil de descifrar, si bien es cierto que la mayoría de los seres humanos adoran tener una relación amorosa llena de magia y de intensidad, con cáncer nunca se sabe, ya que en ocasiones pueden mostrarse extremadamente interesados y tomar la iniciativa mientras que otras veces pueden quedarse quietos esperando que la lluvia caiga para reconfortar su interior. "
                 android:textSize="24sp" />
 
@@ -105,7 +106,8 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Para todos aquellos nacidos bajo este signo se ha iniciado un nuevo ciclo en el ambito financiero, ya que nuevas oportunidades para obtener una buena estabilidad economica se le presentaran. Es muy importante que no rechaces ninguna de las propuestas que se te presentan ya que de lo contrario tu racha dde buena suerte se puede terminar."
+                android:gravity="center"
+                android:text="Para todos aquellos nacidos bajo este signo se ha iniciado un nuevo ciclo en el ambito financiero, ya que nuevas oportunidades para obtener una buena estabilidad economica se le presentaran. Es muy importante que no rechaces ninguna de las propuestas que se te presentan ya que de lo contrario tu racha de buena suerte se puede terminar."
                 android:textSize="24sp" />
 
             <Button

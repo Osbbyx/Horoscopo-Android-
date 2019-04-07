@@ -7,7 +7,7 @@
     tools:context="lol.lol.horoscopo.Libra">
 
     <ScrollView
-        android:layout_width="365dp"
+        android:layout_width="349dp"
         android:layout_height="715dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"

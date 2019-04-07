@@ -46,11 +46,11 @@ public class Daily extends AppCompatActivity {
     "Si consigues identificar y eliminar este elemento, tu vitalidad estará por las nubes.\n" +
             "Tus números de la suerte: 9, 24, 38, 49.Palabra clave de la semana: auto-expresión.\n" +
             "Aspecto más favorecido: salud.",
-    "Algunos de los aspectos positivos que suelen tener aquellas personas nacidas bajo el signo de Tauro, es que ellos son una gran inspiración para muchas otras personas, y es muy común que tengan una mente brillante y una excesiva creatividad.",
+    "Algunos de los aspectos positivos que suelen tener, es que ellos son una gran inspiración para muchas otras personas, y es muy común que tengan una mente brillante y una excesiva creatividad.",
     "Se sabe también que los taurinos tienen un muy buen gusto para elegir la mayoría de las cosas, y que por otra parte tienen una cierta inclinación al misticismo.",
     "La gente nacida bajo ese signo, es conocida además por tener muchos talentos artísticos. Es también muy bueno para mantener relaciones duraderas.",
     "Aquellas personas que nacen bajo este signo, tienen también la característica de ser gente que desea una vida activa y mentalmente desafiante, aunque esto no signifique que desprecien la reposada.",
-    "Siempre estás en busca de calma y pacífica vida hogareña. Por eso, esta aparente calma exterior da a menudo una falsa impresión, pues Tauro tiene una tremenda fuerza interior, sensibilidad, e idealismo.",
+    "Siempre estás en busca de calma y pacífica vida hogareña. Por eso, esta aparente calma exterior da a menudo una falsa impresión, pues tiene una tremenda fuerza interior, sensibilidad, e idealismo.",
     "Este signo también posee algunas otras características que no son tan buenas, como por ejemplo algunos malos hábitos que suelen, no obstante, guardar de forma muy reservada.",
     "Los nacidos bajo este signo tienen también un fuerte temor de enfrentar los cambios.\n" +
             "Por su parte, su positiva faceta creativa puede llevarlos a menudo a ser demasiado idealistas o auto-engañarse excesivamente.",
@@ -61,16 +61,16 @@ public class Daily extends AppCompatActivity {
     "Si consigues identificar y eliminar este elemento, tu vitalidad estará por las nubes.\n" +
             "Tus números de la suerte: 9, 24, 38, 49.Palabra clave de la semana: auto-expresión.\n" +
             "Aspecto más favorecido: salud.",
-    "Algunos de los aspectos positivos que suelen tener aquellas personas nacidas bajo el signo de Tauro, es que ellos son una gran inspiración para muchas otras personas, y es muy común que tengan una mente brillante y una excesiva creatividad.",
+    "Algunos de los aspectos positivos, es que son una gran inspiración para muchas otras personas, y es muy común que tengan una mente brillante y una excesiva creatividad.",
     "Se sabe también que los taurinos tienen un muy buen gusto para elegir la mayoría de las cosas, y que por otra parte tienen una cierta inclinación al misticismo.",
     "La gente nacida bajo ese signo, es conocida además por tener muchos talentos artísticos. Es también muy bueno para mantener relaciones duraderas.",
     "Aquellas personas que nacen bajo este signo, tienen también la característica de ser gente que desea una vida activa y mentalmente desafiante, aunque esto no signifique que desprecien la reposada.",
-    "Siempre estás en busca de calma y pacífica vida hogareña. Por eso, esta aparente calma exterior da a menudo una falsa impresión, pues Tauro tiene una tremenda fuerza interior, sensibilidad, e idealismo.",
+    "Siempre estás en busca de calma y pacífica vida hogareña. Por eso, esta aparente calma exterior da a menudo una falsa impresión, tiene una tremenda fuerza interior, sensibilidad, e idealismo.",
     "Este signo también posee algunas otras características que no son tan buenas, como por ejemplo algunos malos hábitos que suelen, no obstante, guardar de forma muy reservada.",
     "Los nacidos bajo este signo tienen también un fuerte temor de enfrentar los cambios.\n" +
             "Por su parte, su positiva faceta creativa puede llevarlos a menudo a ser demasiado idealistas o auto-engañarse excesivamente.",
     "Un nativo típico, es también una persona nerviosa, y tiene el problema de perder el control, en más de una oportunidad, de sus asuntos emocionales. La gente nacida bajo este signo tiene asimismo un fuerte temor de aquellas cuestiones que los fuercen a abandonar su rutina.",
-    "Un típico nativo suele desafiar a los demás en los juegos de poder, sobre todo si su adversario es un enemigo. Pero incluso siendo amigo, es posible que Tauro lo considere un potencial rival.",
+    "Un típico nativo suele desafiar a los demás en los juegos de poder, sobre todo si su adversario es un enemigo. Pero incluso siendo amigo.",
     "En los asuntos más relacionados al trabajo, este signo suele trabajar muy duro, y no parará hasta lograr sus objetivos. Típicamente, un taurino tomará el toro por las astas, y hará todo el trabajo duro que sea necesario.",
     "Los nacidos bajo este signo son muy tesoneros y emprendedores Esto hará que puedan fácilmente llegar a alcanzar sus objetivos, y logren por lo tanto escalar a posiciones de autoridad en su carrera.",
     "Para este signo, la educación es un componente esencial a para poder llegar al máximo potencial. La mayoría de las veces, la gente nacida bajo este signo tiene una fuerte necesidad por estimular su curiosidad intelectual.",
