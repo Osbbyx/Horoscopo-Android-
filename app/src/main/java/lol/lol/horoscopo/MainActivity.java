@@ -123,6 +123,7 @@ public class MainActivity extends AppCompatActivity
 
 
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -225,6 +226,13 @@ public class MainActivity extends AppCompatActivity
                 Intent l1 = new Intent(this, Sagitario.class);
                 startActivity(l1);
                 break;
+        }
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (this.isFinishing()){
+            mp.stop();
         }
     }
 }
