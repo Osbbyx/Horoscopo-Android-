@@ -43,6 +43,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="12dp" />
 
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="match_parent"
@@ -50,6 +58,23 @@
                 android:background="@drawable/side_nav_bar"
                 android:text="Horoscopo del Dia"
                 android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Para ver el horoscopo del dia, debe presionar el boton azul que dice horoscopo del dia, en caso de que no abra debe esperar que salga la mini publicidad arriba del boton, eso indica que ya el horoscopo del dia esta listo para verse."
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <Space
