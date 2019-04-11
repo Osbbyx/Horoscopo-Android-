@@ -7,7 +7,7 @@
     tools:context="lol.lol.horoscopo.about">
 
     <ScrollView
-        android:layout_width="364dp"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -213,7 +213,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Este boton en cada pestaña te genera el horoscopo del dia al cual le puedes tirar un capture y asi todos los dias, debe abrirse 1 vez al dia tirar el capture y verlo desde galeria, una vez pasa el dia puede volver a entrar y tendra el horoscopo del dia correspodiente."
+                android:text="Este boton lleva al horoscopo del dia de tu horoscopo correspondiente, antes de llegar debera ver un video (No por que quiera, es que necesito sobrevivir) donde una vez acabe, lo enviara automaticamente a su horoscopo del dia."
                 android:textSize="24sp"
                 android:textStyle="bold" />
 

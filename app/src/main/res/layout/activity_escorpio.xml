@@ -7,8 +7,8 @@
     tools:context="lol.lol.horoscopo.Escorpio">
 
     <ScrollView
-        android:layout_width="353dp"
-        android:layout_height="715dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -25,10 +25,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="62dp" />
-
             <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/adView"
                 android:layout_width="wrap_content"
@@ -39,15 +35,12 @@
                 ads:adSize="BANNER"
                 ads:adUnitId="ca-app-pub-8718810071299222/6691988289"></com.google.android.gms.ads.AdView>
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="12dp" />
-
             <TextView
-                android:id="@+id/textView53"
+                android:id="@+id/textView55"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓"
+                android:gravity="center"
+                android:text="↓↓↓↓↓"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -64,16 +57,17 @@
                 android:id="@+id/textView54"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑"
+                android:gravity="center"
+                android:text="↑↑↑↑↑"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView55"
+                android:id="@+id/textView53"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Para ver el horoscopo del dia, debe presionar el boton azul que dice horoscopo del dia, en caso de que no abra debe esperar que salga la mini publicidad arriba del boton, eso indica que ya el horoscopo del dia esta listo para verse."
+                android:text="Para ver el horoscopo del dia, debe presionar el boton azul que dice horoscopo del dia, en caso de no abrir automaticamente, asegurese de estar conectado a internet."
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
